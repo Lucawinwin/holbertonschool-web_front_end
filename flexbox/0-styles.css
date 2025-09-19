@@ -188,10 +188,15 @@
     list-style: none;
     display: flex;
   }
+  .row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  grid-gap: 10px; 
+}
   
   [class*='col-'] {
     padding: 0.5rem;
-    row-class: row;
+    float: left;
   }
   
   .col-1-3 {
