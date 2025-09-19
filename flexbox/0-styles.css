@@ -189,14 +189,14 @@
     display: flex;
   }
   .row {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr); 
-  grid-gap: 10px; 
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
 }
   
   [class*='col-'] {
     padding: 0.5rem;
-    float: left;
+    
   }
   
   .col-1-3 {
