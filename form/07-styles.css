@@ -854,7 +854,7 @@
         position: relative;
         width: 15rem;
         z-index: 1;
-        border-bottom: var(--border-width) solid var(--color-dark-grey);
+        border-bottom: 1rem solid var (--color-grey)
         padding: 0;
         cursor: text;
         margin: 0 1rem;
